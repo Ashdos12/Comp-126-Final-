@@ -1,4 +1,3 @@
-<!--We now have the ability to all work togeather on our proj!!-->
 <!doctype html>
 <html lang="en">
 
@@ -20,7 +19,7 @@
         integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
     <!-- Link to your custom stylesheet. Any non-Bootstrap styles you create go in this stylesheet. You can create new classes and IDs, or add new rules for classes that already exist in Bootstrap. Any rules you put in your custom stylesheet will override any styling applied to any elements of the same name in Bootstrap, as long as your custom stylesheet link comes AFTER your Bootstrap CSS link, the way it does here. -->
-    <link rel="stylesheet" type="text/css" href="fun.css">
+    <link rel="stylesheet" type="text/css" href="housing.css">
 
 </head>
 
@@ -38,19 +37,19 @@
                 <div class="collapse navbar-collapse navbar-default" id="navbarTogglerDemo02">
                     <ul class="navbar-nav mr-auto mt-2 mt-md-0 ">
                         <li class="nav-item">
-                            <a class="nav-link nav-default" href="index.html">Home</a>
+                            <a class="nav-link nav-default" href="../index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link nav-default" href="housing.html">Housing</a>
+                            <a class="nav-link nav-default" href="#!">Housing</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="food.html">Food</a>
+                            <a class="nav-link nav-default" href="about.html">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#!">Fun</a>
+                            <a class="nav-link" href="food.html">Food<span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="about.html">About</a>
+                            <a class="nav-link click" href="fun.html">Fun</a>
                         </li>
                     </ul>
                 </div>
@@ -60,31 +59,20 @@
                         <div class="searchbar ">
                             <input type="text" class="form-control" id="bar" placeholder="Search">
                         </div>
-
                     </div>
-
                 </form>
-                <!-- <a href="#"><i class="fas fa-search"></i></a> -->
             </nav>
-
         </header>
-        <h1> Fun</h1>
     </div>
 
-
-    <div class=" article holder">
-        <div class="black">
-            <h2>Most Recent Post</h2>
-        </div>
+    <div class="article">
         <div class="content">
-
             <div class="top">
-                <h1 class="card-text">Best Things To Do On a Friday night!</h1>
+                <h1 class="card-text">Our favorite dorm room setups!</h1>
             </div>
 
-            <div class="franklin">
-                <img id="franklin Street" class="image" src="images/Franklin Street Copy.jpeg"
-                    alt="franklin street"><img>
+            <div class="dormroom">
+                <img id="dormroom" class="image" src="images/room.jpeg" alt="dormroom"><img>
             </div>
             <div class="text">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer finibus semper dolor, et dictum
@@ -114,24 +102,19 @@
                     tellus metus. Sed posuere at lectus aliquam tincidunt. Maecenas eget rhoncus dui. Quisque tempor
                     metus at convallis rhoncus. In bibendum risus dolor. Duis feugiat sed quam porta aliquet. Morbi
                     scelerisque eleifend diam in dapibus. Duis ac lorem nec lorem posuere feugiat in a urna. Aliquam
-                    ultricies posuere erat, quis hendrerit tellus congue nec. Praesent iaculis suscipit nisl id
-                    <a href="#!">See more!</a>
+                    ultricies posuere erat, quis hendrerit tellus congue nec. Praesent iaculis suscipit nisl id.
+                    <a href="#!" id="blue">Read more!</a>
                 </p>
             </div>
 
         </div>
-        <div class="white">
-            <h2> Other posts</h2>
-        </div>
+
         <div class="holder">
             <div class="side content">
                 <div class="more">
                     <h1 class="card-text" href="#!">
-                        More Stuff!!
+                        What was your favorite first-year moment?
                     </h1>
-                </div>
-                <div class="other">
-                    <img id="franklin Street" src="images/Franklin Street Copy.jpeg" alt="franklin street"><img>
                 </div>
                 <div class="side-text">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer finibus semper dolor, et dictum
@@ -142,53 +125,40 @@
                         maximus scelerisque diam. Pellentesque ornare, dui at fermentum auctor, erat orci vulputate
                         lacus,
 
-                        <a href="#!">See more!</a>
+                        <a href="#!" id="blue">Read more!</a>
                     </p>
                 </div>
-
 
             </div>
             <div class="S content">
                 <div class="more">
-                    <h1 class="card-text" href="#!">
-                        More Stuff!!
+                    <h1 class="card-text" id="smaller" href="#!">
+                        An ode to the residential advisor:
                     </h1>
-                </div>
-                <div class="other">
-                    <img id="franklin Street" src="images/Franklin Street Copy.jpeg" alt="franklin street"><img>
+                    <h1 id="italic">the forgotten hero.</h1>
                 </div>
                 <div class="side-text">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer finibus semper dolor, et dictum
-                        ante
-                        tincidunt ut. Proin nisi ligula, pulvinar quis justo a, vulputate dignissim dui. Integer
-                        suscipit
-                        nisl felis, quis ultricies ex euismod quis. Nulla facilisi. In arcu nunc, elementum ut dui sed,
-                        maximus scelerisque diam. Pellentesque ornare, dui at fermentum auctor, erat orci vulputate
-                        lacus,
-
-                        <a href="#!">See more!</a>
+                    <p>
+                        <a href="#!" id="right">Read more!</a>
                     </p>
                 </div>
 
             </div>
         </div>
-    </div>
-
-
-    <footer>
-        <p>Connect With Us</p>
-        <i class="fab fa-facebook-f"></i>
-        <i class="fab fa-twitter"></i>
-        <i class="fab fa-instagram"></i>
-        <div class="logo">
-            <img src="https://www.northcarolina.edu/sites/default/files/team-img/hpt_unc-ch.gif">
-        </div>
-    </footer>
-
-
-
-
 
 
     </div>
+
+
 </body>
+
+
+
+
+
+<footer>
+    <p>Connect With Us</p>
+    <i class="fab fa-facebook-f"></i>
+    <i class="fab fa-twitter"></i>
+    <i class="fab fa-instagram"></i>
+</footer>
