@@ -60,6 +60,17 @@ h1 {
     margin: auto;
 }
 
+.about {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    align-items: center;
+}
+
+.about>h3 {
+    grid-row: 2;
+    font-size: 5em;
+}
+
 h2 {
     font-size: 1.2em;
     padding-top: 4%;

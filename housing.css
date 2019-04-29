@@ -6,7 +6,8 @@ html {
 
 .container-fluid {
     padding: 0;
-
+    background-image: url("https://global.unc.edu/files/2013/03/spring_4_09__12_054.jpg");
+    height: fit-content;
     text-align: center;
     grid-template-rows: auto;
     grid-template-columns: auto;
